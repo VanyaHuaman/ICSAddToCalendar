@@ -60,7 +60,7 @@ object ICSDownloader {
                     if (e is ActivityNotFoundException) {
                         Log.d(
                             "OpenFile",
-                            "No associated File Viewer for mimeType: " + MIME_TYPE_ICS
+                            "No associated File Viewer for mimeType: $MIME_TYPE_ICS"
                         )
                     } else {
                         Log.e("OpenFile", "Exception:$e")
