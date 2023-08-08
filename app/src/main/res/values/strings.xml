@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ICSDownload</string>
+    <string name="load">Load</string>
+    <string name="url">url</string>
+</resources>
